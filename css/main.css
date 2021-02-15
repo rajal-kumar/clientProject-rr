@@ -1,0 +1,184 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #56CCF2;
+}
+
+.navbar {
+    background: #222;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Header */
+
+.header {
+    background-image: url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.main-pic {
+    border-radius: 360px;
+    width: 320px;
+    height: 300px;
+    border: 2px solid;
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #fff;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #222222;
+    background: #222;
+    border-radius: 0;
+    color: #fff;
+}
+
+.description button:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+/* MAIN CONTENT */
+
+/* BRIEF */
+
+.brief {
+    margin: 100px 0;
+}
+
+/* FEATURES */
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+/* SYMPTOMS */
+
+
+.background {
+    background: #fff;
+    padding: 4em 0;
+}
+
+.symtpoms {
+    color: #5e5e55;
+    padding: 0 180px;
+}
+
+.symtpoms .card-column {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+
+.symtpoms .card-column {
+    background: none;
+    border: none;
+}
+
+.symtpoms .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+/* CONTACT FORM */
+
+
+
+/* FOOTER */
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    margin: 100px auto auto auto;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+/* CONTACT PAGE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background: url("https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container {
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 100px 0;
+}
